@@ -1,0 +1,50 @@
+html{
+    font-family: 'Libre Franklin', sans-serif;
+    overflow: hidden;
+}
+
+body{/* 
+    display:flex;
+    justify-content: center; */
+    text-align: center;
+}
+
+h1 {
+    font-weight: 700;
+}
+
+h1, p{
+    text-align: center;
+}
+
+.fab {
+    color: hsl(223, 87%, 63%);
+    margin: 0 3px;
+}
+
+#error {
+    color: red;
+    font-size: 10px;
+    display: none;
+}
+
+div {
+    display:flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+button{
+    background-color: hsl(223, 87%, 63%);
+    color: white;
+    border-radius: 50px;
+    border:none;
+    padding: 10px 30px 10px 30px;
+    cursor: pointer;
+}
+
+input{
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid hsl(223, 79%, 85%)
+}
